@@ -1,0 +1,7 @@
+.idea/
+venv/
+build/
+.DS_Store
+.pytest_cache/
+aior.egg-info/
+*.pyc
