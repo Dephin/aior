@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 # in case of importing other dependencies
 with open('aior/__init__.py', encoding='utf8') as f:
-    version = re.search(r'__version__ = "(.*?)"', f.read()).group(1)
+    version = re.search(r"__version__ = '(.*?)'", f.read()).group(1)
 
 setup(
     name='aior',
